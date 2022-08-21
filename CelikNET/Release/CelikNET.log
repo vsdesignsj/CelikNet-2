@@ -1,0 +1,7 @@
+﻿  AssemblyInfo.cpp
+D:\Projekti\Igraliste\CelikNET-Source2\CelikNET\AssemblyInfo.cpp(26,29): warning C4947: 'System::Security::Permissions::SecurityAction::RequestMinimum': marked as obsolete
+D:\Projekti\Igraliste\CelikNET-Source2\CelikNET\AssemblyInfo.cpp(26,29): message : Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+  CelikNET.cpp
+  Stdafx.cpp
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  CelikNET.vcxproj -> D:\Projekti\Igraliste\CelikNET-Source2\Release\CelikNET.dll

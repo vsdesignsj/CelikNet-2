@@ -1,0 +1,9 @@
+C:\Users\davor.bulic\Downloads\CelikNET-Source2\Debug\COPYING.txt
+C:\Users\davor.bulic\Downloads\CelikNET-Source2\Debug\COPYING.LESSER.txt
+C:\Users\davor.bulic\Downloads\CelikNET-Source2\CelikNET\Debug\CelikNET.vcxproj.AssemblyReference.cache
+D:\Projekti\Igraliste\CelikNET-Source2\Debug\COPYING.txt
+D:\Projekti\Igraliste\CelikNET-Source2\Debug\COPYING.LESSER.txt
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\Debug\CelikNET.vcxproj.AssemblyReference.cache
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\Debug\COPYING.txt
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\Debug\COPYING.LESSER.txt
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\Debug\CelikNET.dll

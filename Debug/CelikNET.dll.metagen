@@ -1,0 +1,66 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CelikNET, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CelikNET.CelikException: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Exception
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String EIDErrorDescriptionSr 'get ' : 
+    System.String EIDErrorDescriptionEn 'get ' : 
+    Int32 EIDErrorCode 'get ' : 
+  Methods:
+    get_EIDErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    get_EIDErrorDescriptionEn(): PrivateScope, Public, HideBySig, SpecialName
+    get_EIDErrorDescriptionSr(): PrivateScope, Public, HideBySig, SpecialName
+Class CelikNET.DocumentData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String docRegNo : Public
+    System.String issuingDate : Public
+    System.String expiryDate : Public
+    System.String issuingAuthority : Public
+Class CelikNET.FixedPersonalData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String personalNumber : Public
+    System.String surname : Public
+    System.String givenName : Public
+    System.String parentGivenName : Public
+    System.String sex : Public
+    System.String placeOfBirth : Public
+    System.String stateOfBirth : Public
+    System.String dateOfBirth : Public
+    System.String communityOfBirth : Public
+Class CelikNET.VariablePersonalData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String state : Public
+    System.String community : Public
+    System.String place : Public
+    System.String street : Public
+    System.String houseNumber : Public
+    System.String houseLetter : Public
+    System.String entrance : Public
+    System.String floor : Public
+    System.String apartmentNumber : Public
+Class CelikNET.CelikInterop: AutoLayout, AnsiClass, Class, Public, Sealed
+    Void .ctor(SByte*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Cleanup(): PrivateScope, Public, Static, HideBySig
+    ReadFixedPersonalData(): PrivateScope, Public, HideBySig
+    ReadVariablePersonalData(): PrivateScope, Public, HideBySig
+    ReadDocumentData(): PrivateScope, Public, HideBySig
+    ReadProfileImage(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

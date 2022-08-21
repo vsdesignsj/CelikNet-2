@@ -1,0 +1,3 @@
+D:\Projekti\Igraliste\CelikNET-Source2\Release\COPYING.txt
+D:\Projekti\Igraliste\CelikNET-Source2\Release\COPYING.LESSER.txt
+D:\Projekti\Igraliste\CelikNET-Source2\CelikNET\Release\CelikNET.vcxproj.AssemblyReference.cache

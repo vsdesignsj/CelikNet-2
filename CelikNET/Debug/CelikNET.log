@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  AssemblyInfo.cpp
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\AssemblyInfo.cpp(26,29): warning C4947: 'System::Security::Permissions::SecurityAction::RequestMinimum': marked as obsolete
+C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\AssemblyInfo.cpp(26,29): message : Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+  CelikNET.cpp
+  Stdafx.cpp
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CelikNET.vcxproj -> C:\Users\Cyber\Downloads\CelikNET-Source2\CelikNET\Debug\CelikNET.dll
